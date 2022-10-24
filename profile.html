@@ -28,20 +28,36 @@
 <body>
 
 	<!-- HEADER START -->
-	<header class="fixed-top border shadow-sm bg-white">
+	<header class="sticky-top border shadow-sm bg-white">
         
         <!-- .container start -->
         <div class="container d-flex flex-wrap align-item-center justify-content-center justify-content-lg-center">
 
             <!-- col start -->
             <div class="col-lg-4">
-            	<!-- logo start -->
-	            <a href="index.html" class=" d-flex justify-content-center text-dark text-decoration-none item-align-center py-2">
-	                <h3 class="dropdown-toggle"><b>Instagram</b></h3> 
-	            </a>
-            	<!-- logo end -->
+	            
+                <!-- Dropdown start -->
+                <nav class="navbar navbar-expand-lg ">
+                    <h3>
+                        <b>Instagram</b>
+                    </h3>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-user-check"></i> 
+                            Following
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-star"></i> 
+                            Favorites
+                        </a>
+                    </div>
+                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"></a>         
+                </nav>
+                <!-- Dropdown end -->
+                
             </div>
             <!-- col end -->
+
 
             <!-- col start -->
             <div class="col-lg-4">
@@ -92,16 +108,18 @@
     </header>
 	<!-- HEADER END --> 
 
+
+
     <!-- NAV START -->
     <div class="bg-light">
 
     <!-- .container start -->
-    <div class="container p-5">
+    <div class="container p-3">
         <!-- .row start -->
         <div class="row my-5">
 
             <!-- .col start -->
-            <div class="col-lg-4 text-center py-5 mt-5">
+            <div class="col-lg-4 text-center py-4 mt-5">
                 <div>
                     <img src="./assets/img/sacode.jpg" width="160" class="rounded-circle img-thumbnail border border-danger border border-3">
                 </div>
@@ -215,13 +233,13 @@
                 </a>
                 </small>
                 <small>
-                <a href="#" class="ms-2 text-decoration-none link-secondary ms-5">
+                <a href="#" class="text-decoration-none link-secondary ms-5">
                     <i class="fa-solid fa-clapperboard"></i>
                     REELS
                 </a>
                 </small>
                 <small>
-                <a href="#" class="ms-2 text-decoration-none link-secondary ms-5">
+                <a href="#" class="text-decoration-none link-secondary ms-5">
                     <i class="fa-solid fa-id-card-clip"></i>
                     TAGGED
                 </a>
@@ -266,6 +284,8 @@
     <!-- .container end -->
     </div>
     <!-- NAV END -->
+
+    
 
     <!-- FOOTER START -->
     <footer class="bg-light">
