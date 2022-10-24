@@ -28,18 +28,33 @@
 <body>
 
 	<!-- HEADER START -->
-	<header class="fixed-top border shadow-sm bg-white">
+	<header class="sticky-top border shadow-sm bg-white">
         
         <!-- .container start -->
         <div class="container d-flex flex-wrap align-item-center justify-content-center justify-content-lg-center">
 
             <!-- col start -->
             <div class="col-lg-4">
-            	<!-- logo start -->
-	            <a href="index.html" class=" d-flex justify-content-center text-dark text-decoration-none item-align-center py-2">
-	                <h3 class="dropdown-toggle"><b>Instagram</b></h3> 
-	            </a>
-            	<!-- logo end -->
+                
+            	<!-- Dropdown start -->
+                <nav class="navbar navbar-expand-lg ">
+                    <h3>
+                        <b>Instagram</b>
+                    </h3>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-user-check"></i> 
+                            Following
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i class="fa-solid fa-star"></i> 
+                            Favorites
+                        </a>
+                    </div>
+                    <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"></a>         
+                </nav>
+                <!-- Dropdown end -->
+
             </div>
             <!-- col end -->
 
@@ -162,7 +177,7 @@
                         <a href="#" class="text-decoration-none link-dark">49 likes</a>
                     </div>
                     <div>
-                        <a href="#" class="text-decoration-none link-dark fw-bold" >janzen.faidiban</a>
+                        <a href="#" class="text-decoration-none link-dark fw-bold" >janzen.fidiban</a>
                         💡The goal is to be better than I used to be
                         <a href="#" class="text-decoration-none link-secondary">...more</a>
                     </div>
